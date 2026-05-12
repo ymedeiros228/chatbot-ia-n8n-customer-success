@@ -1,7 +1,7 @@
 # Desafio Técnico – Chatbot Inteligente com IA
 
 Autor: Yuri Medeiros Bandeira  
-Curso: Ciência da Computação – 6º período
+Curso: Ciência da Computação – 5º período
 
 ------------------------------------------------------------
 
