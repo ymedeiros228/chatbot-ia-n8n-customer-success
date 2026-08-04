@@ -1,83 +1,42 @@
-# Desafio Técnico – Chatbot Inteligente com IA
+# Chatbot CS + IA (n8n)
 
-Autor: Yuri Medeiros Bandeira  
-Curso: Ciência da Computação – 6º período
+Desafio técnico de Customer Success: chatbot que responde com base de conhecimento via **n8n + Google Sheets + IA** (Groq/OpenAI).
 
-------------------------------------------------------------
+**Autor:** [Yuri Medeiros](https://github.com/ymedeiros228) · CC · 6º período
 
-📌 SOBRE O PROJETO
+## Como funciona
 
-Este projeto foi desenvolvido como solução para o desafio técnico
-voltado à área de Customer Success.
+1. Usuário envia pergunta no chat  
+2. n8n recebe a mensagem  
+3. Google Sheets consulta a base Q&A  
+4. IA escolhe / formula a resposta mais próxima  
+5. Resposta automática no fluxo  
 
-A aplicação consiste em um chatbot inteligente integrado ao n8n,
-Google Sheets e Inteligência Artificial, capaz de responder perguntas
-automaticamente utilizando uma base de conhecimento personalizada.
+## Stack
 
-------------------------------------------------------------
+- n8n (fluxo exportado em `workflow/`)
+- Google Sheets / planilha (`base_de_dados/`)
+- IA (Groq/OpenAI)
+- Documentação e prints em pastas do repo
 
-⚙️ TECNOLOGIAS UTILIZADAS
+## Estrutura
 
-- n8n
-- Google Sheets
-- Inteligência Artificial (Groq/OpenAI)
-- Automação de Fluxos
-- APIs
+```
+documentacao/   # PDF técnico
+video/          # Apresentação
+prints/         # Capturas
+workflow/       # Export n8n (.json)
+base_de_dados/  # Planilha da base
+```
 
-------------------------------------------------------------
+## Status
 
-🧠 FUNCIONAMENTO
+Projeto funcional e validado no contexto do desafio (leitura da base, automação e integrações).
 
-1. O usuário envia uma pergunta no chat
-2. O n8n recebe a mensagem
-3. O Google Sheets consulta a base de perguntas e respostas
-4. A IA identifica a resposta mais próxima
-5. O chatbot responde automaticamente
+## Melhorias possíveis
 
-------------------------------------------------------------
+- WhatsApp, busca vetorial, dashboard de métricas, atendimento hybrid.
 
-📁 ESTRUTURA DO PROJETO
+---
 
-/documentacao
-→ PDF com documentação técnica completa
-
-/video
-→ Vídeo de apresentação do projeto
-
-/prints
-→ Capturas de tela do funcionamento
-
-/workflow
-→ Fluxo exportado do n8n (.json)
-
-/base_de_dados
-→ Planilha utilizada no chatbot (.xlsx)
-
-------------------------------------------------------------
-
-🚀 POSSÍVEIS MELHORIAS FUTURAS
-
-- Integração com WhatsApp
-- Banco de dados vetorial
-- Melhor busca por similaridade
-- Dashboard de métricas
-- Expansão da base de conhecimento
-- Atendimento em tempo real
-
-------------------------------------------------------------
-
-✅ STATUS
-
-Projeto funcional e validado.
-
-O chatbot realiza:
-- leitura da base de dados
-- automação de respostas
-- integração com IA
-- processamento automático de perguntas
-
-------------------------------------------------------------
-
-Obrigado pela avaliação do projeto.
-
-Yuri Medeiros Bandeira
+Portfólio flagship: [SIGAPS](https://github.com/ymedeiros228/sigaps) · [Painel UBS](https://github.com/ymedeiros228/painel-ubs-planifica)
